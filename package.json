@@ -1,0 +1,29 @@
+{
+  "name": "doxstrap",
+  "version": "0.0.0",
+  "description": "JavaScript documentation generator based on JSDoc syntax, Dox parser, Twitter Bootstrap CSS, and Prism syntax highlighter",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:webpro/doxstrap.git"
+  },
+  "bin": "./bin/doxstrap.js",
+  "main": "./lib/doxstrap.js",
+  "author": {
+    "name": "Lars Kappert",
+    "email": "lars@webpro.nl"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dox": "~0.4.4",
+    "optimist": "~0.6.0",
+    "lodash": "~2.4.1",
+    "bluebird": "~1.0.8",
+    "glob-stream": "~3.1.9",
+    "chalk": "~0.4.0",
+    "mkdirp": "~0.3.5",
+    "cpr": "~0.1.1",
+    "handlebars": "~2.0.0-alpha.2",
+    "handlebars-helpers": "~0.5.4"
+  }
+}
