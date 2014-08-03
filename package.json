@@ -1,6 +1,6 @@
 {
   "name": "doxstrap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JavaScript documentation generator based on JSDoc syntax, Dox parser, Twitter Bootstrap CSS, and Prism syntax highlighter",
   "keywords": [],
   "repository": {
