@@ -15,14 +15,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "dox": "~0.4.6",
-    "optimist": "~0.6.0",
-    "lodash": "~2.4.1",
-    "bluebird": "~1.0.8",
-    "glob-stream": "~3.1.9",
-    "mkdirp": "~0.3.5",
-    "cpr": "~0.1.1",
-    "handlebars": "~2.0.0-alpha.2",
-    "handlebars-helpers": "~0.5.4"
+    "dox": "~0.8.0",
+    "optimist": "~0.6.1",
+    "lodash": "~3.10.0",
+    "bluebird": "~2.9.34",
+    "glob-stream": "~5.0.0",
+    "mkdirp": "~0.5.1",
+    "cpr": "~0.4.1",
+    "handlebars": "~3.0.3",
+    "handlebars-helpers": "~0.5.8"
   }
 }
