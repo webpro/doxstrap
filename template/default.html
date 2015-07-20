@@ -147,14 +147,15 @@
                         {{#each members}}
 
                             {{#if name}}
-                            {{#notEmpty return params}}
                             <section id="{{module}}-{{id}}">
 
                             {{#with this}}
 
                                 <h3>
                                     {{name}}
+                                    {{#if callable}}
                                     <em> ({{#each cleanParams}}{{title}}{{#unless @last}}, {{/unless}}{{/each}})</em>
+                                    {{/if}}
                                 </h3>
 
                                 <div class="block">
@@ -223,7 +224,6 @@
                                 </div>
                             {{/with}}
                             </section>
-                            {{/notEmpty}}
                             {{/if}}
                         {{/each}}
                     </section>
